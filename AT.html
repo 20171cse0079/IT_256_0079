@@ -1,0 +1,20 @@
+<!--javscript to read and print name using prompt dialog box-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Asgnt</title>
+</head>
+<body onload="fun1()">
+<script>
+function fun1(){
+let cname = prompt("Enter your name");
+if(cname!=""&&cname!=null)
+document.write("My name is: "+cname);
+else
+fun1();
+}
+</script>
+</body>
+</html>
